@@ -1,0 +1,46 @@
+<%-- 
+    Document   : login
+    Created on : Jun 22, 2019, 4:34:33 PM
+    Author     : hp
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Login</title>
+        <!-- ${pageContext.request.contextPath} -->
+        <link href="https://fonts.googleapis.com/css?family=Asap&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="/Proizvodi/css/style.css" />
+        
+    </head>
+    <body>
+        <div class="container">
+            <div class="login">
+                <h1>Registracija</h1>
+                <form action="" method="post">
+                    <div>
+                        <input type="text" name="ime" placeholder="Ime" />
+                    </div>
+                    <div>
+                        <input type="text" name="prezime" placeholder="Prezime" />
+                    </div>
+                    <div>
+                        <input type="text" name="username" placeholder="Username" />
+                    </div>
+                    <div>
+                        <input type="text" name="password" placeholder="Password" />
+                    </div>
+                    <div>
+                        <input type="text" name="email" placeholder="Email" />
+                    </div>
+                    <div>
+                        <input type="submit" value="Register" />
+                        <a href="login.jsp">Login</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

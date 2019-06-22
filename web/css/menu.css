@@ -1,0 +1,35 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 22, 2019, 9:03:34 PM
+    Author     : hp
+*/
+ul.menu {
+    padding: 0;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    padding: 20px 0 20px 20%;
+    display: inline-block;
+    width: 80%;
+    border-bottom: 2px solid white;
+    font-weight: bold;
+}
+
+.menu li:first-child a{
+    border-top: 2px solid white;
+}
+
+
+.menu a:hover{
+    background-color: white;
+    color: black;
+}
+
+.menu li{
+    list-style-type: none;
+}

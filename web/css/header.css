@@ -1,0 +1,33 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 22, 2019, 7:09:28 PM
+    Author     : hp
+*/
+html, body{
+    margin: 0;
+    padding: 0;
+}
+header h1{
+    font-size: 3em;
+    font-stretch: expanded;
+    font-family: 'Abril Fatface';
+    color: white;
+}
+
+header img{
+    height: 100%;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 15vh;
+    padding: 0 15%;
+    background-position: 0;
+    border-bottom: 3px solid white;
+}
