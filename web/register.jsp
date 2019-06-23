@@ -16,7 +16,7 @@
         
     </head>
     <body>
-        <div class="container">
+        <div class="container-center">
             <div class="form">
                 <h1>Registracija</h1>
                 <form action="" method="post">

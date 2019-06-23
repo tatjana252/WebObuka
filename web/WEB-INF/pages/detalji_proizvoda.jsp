@@ -31,31 +31,26 @@
                     <div class="content">
 
                         <div class="form">
-                            <h2>Unesi proizvod </h2>
+                            <h2>Detalji proizvoda</h2>
                             <form action="" method="post">
                                 <div>
                                     <label for="naziv">Naziv</label>
-                                    <input type="text" name="naziv" />
+                                    <input type="text" name="naziv" value="Čoko Smoki" />
                                 </div>
                                 <div>
                                     <label for="cena">Cena</label>
-                                    <input type="number" step="0.01" name="cena" min="0" >
+                                    <input type="number" step="0.01" name="cena" min="0" value="54.32" >
                                 </div>
                                 <div>
-                                    <label for="proizvodjac">Proizvodjac</label>
-                                    <select>
-                                        <option value="1">Proizvodjac 1</option>
-                                        <option value="2">Proizvodjac 2</option>
-                                        <option value="3">Proizvodjac 3</option>
-                                        <option value="4">Proizvodjac 4</option>
-                                    </select>
+                                    <label for="proizvodjac" >Proizvodjac</label>
+                                    <input type="text" name="proizvodjac" value="Štark" >
                                 </div>
-                                <div>
+                                <div class="slika_proizvoda">
                                     <label>Slika</label>
-                                    <input type="file" name="slika" accept="image/*">
+                                    <img src="https://cenoteka.rs/assets/images/articles/stark-coko-smoki-80g--1001290-large.jpg"  />
                                 </div>
                                 <div>
-                                    <input type="submit" value="Sacuvaj" class="btn" />
+                                    <a href="${pageContext.request.contextPath}/action/proizvodi" class="btn">Nazad</a>
                                 </div>
                             </form>
                         </div>

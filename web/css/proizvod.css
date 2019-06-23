@@ -18,9 +18,9 @@ and open the template in the editor.
     padding: 20px 0;
 }
 
-.form div input:not([type="file"]), .form div select {
+.form div input:not([type="file"]), .form div select, .form div.slika_proizvoda img {
     padding: 5px;
-    min-width: 35%; 
+    width: 35%; 
     box-sizing: content-box;
     border: 1px solid grey;
 }
@@ -34,3 +34,9 @@ and open the template in the editor.
     width: 50%;
     margin: 0 auto;
 }
+
+.slika_proizvoda{
+   display: flex;
+}
+
+

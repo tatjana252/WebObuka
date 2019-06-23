@@ -12,3 +12,43 @@ and open the template in the editor.
 @import "header.css";
 @import "layout.css";
 @import "menu.css";
+
+.btn{
+    background-color: #076cf5;
+    border: none;
+    color: white;
+    font-size: 24px;
+    padding: 5px;
+    text-decoration: none;
+}
+.pagination{
+    text-align: center;
+}
+
+.pagination a.active{
+    background-color: grey;
+    color: white;
+}
+.pagination a{
+    padding: 5px;
+    color: grey;
+    border: 1px solid grey;
+    text-decoration: none;
+    border-collapse: collapse;
+    transition-duration: 0.3s;
+    
+}
+
+.pagination a[href]:not(.active):hover{
+    background-color: #e8e9ea;
+}
+
+.pagination a:first-child{
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.pagination a:last-child{
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}

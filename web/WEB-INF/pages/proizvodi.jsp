@@ -47,61 +47,64 @@
                                     <td>Proizvod 1</td>
                                     <td>Proizvodjac 1</td>
                                     <td>1000.00</td>
-                                    <td><a href="/detalji_proizvoda.jsp">Detalji</a></td>
+                                    <td><a href="/Proizvodi/action/detalji_proizvoda">Detalji</a></td>
                                 </tr>
                                 <tr>
                                     <td>2.</td>
                                     <td>Proizvod 2</td>
                                     <td>Proizvodjac 2</td>
                                     <td>2500.00</td>
-                                    <td><a href="/detalji_proizvoda.jsp">Detalji</a></td>
+                                    <td><a href="/Proizvodi/action/detalji_proizvoda">Detalji</a></td>
                                 </tr>
                                 <tr>
                                     <td>3.</td>
                                     <td>Proizvod 3</td>
                                     <td>Proizvodjac 1</td>
                                     <td>1030.00</td>
-                                    <td><a href="/detalji_proizvoda.jsp">Detalji</a></td>
+                                    <td><a href="/Proizvodi/action/detalji_proizvoda">Detalji</a></td>
                                 </tr>
                                 <tr>
-                                    <td>2.</td>
+                                    <td>4.</td>
                                     <td>Proizvod 2</td>
                                     <td>Proizvodjac 2</td>
                                     <td>2500.00</td>
-                                    <td><a href="/detalji_proizvoda.jsp">Detalji</a></td>
+                                    <td><a href="/Proizvodi/action/detalji_proizvoda">Detalji</a></td>
                                 </tr>
                                 <tr>
-                                    <td>3.</td>
+                                    <td>5.</td>
                                     <td>Proizvod 3</td>
                                     <td>Proizvodjac 1</td>
                                     <td>1030.00</td>
-                                    <td><a href="/detalji_proizvoda.jsp">Detalji</a></td>
+                                    <td><a href="/Proizvodi/action/detalji_proizvoda">Detalji</a></td>
                                 </tr>
                                 <tr>
-                                    <td>2.</td>
+                                    <td>6.</td>
                                     <td>Proizvod 2</td>
                                     <td>Proizvodjac 2</td>
                                     <td>2500.00</td>
-                                    <td><a href="/detalji_proizvoda.jsp">Detalji</a></td>
+                                    <td><a href="/Proizvodi/action/detalji_proizvoda">Detalji</a></td>
                                 </tr>
                                 <tr>
-                                    <td>3.</td>
+                                    <td>7.</td>
                                     <td>Proizvod 3</td>
                                     <td>Proizvodjac 1</td>
                                     <td>1030.00</td>
-                                    <td><a href="/detalji_proizvoda.jsp">Detalji</a></td>
+                                    <td><a href="/Proizvodi/action/detalji_proizvoda">Detalji</a></td>
                                 </tr>
-                                 <tr>
-                                    <td>2.</td>
+                                <tr>
+                                    <td>8.</td>
                                     <td>Proizvod 2</td>
                                     <td>Proizvodjac 2</td>
                                     <td>2500.00</td>
-                                    <td><a href="/detalji_proizvoda.jsp">Detalji</a></td>
+                                    <td><a href="/Proizvodi/action/detalji_proizvoda">Detalji</a></td>
                                 </tr>
-                               
-                            </tbody>
-                        </table>
 
+                            </tbody>
+
+                        </table>
+                        <div class="pagination">
+                            <a href="#"><</a><a href="#" class="active">1</a><a href="#">2</a><a>...</a><a href="#">10</a><a href="#">></a>
+                        </div>
                     </div>
                 </div>
             </div>

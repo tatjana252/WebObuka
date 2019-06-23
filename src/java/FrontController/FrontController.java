@@ -37,7 +37,11 @@ public class FrontController extends HttpServlet {
         }
         if(request.getPathInfo().equals("/nov_proizvod")){
             request.getRequestDispatcher("/WEB-INF/pages/novi_proizvod.jsp").forward(request, response);
-        }else{
+        }
+        if(request.getPathInfo().equals("/detalji_proizvoda")){
+            request.getRequestDispatcher("/WEB-INF/pages/detalji_proizvoda.jsp").forward(request, response);
+        }
+        else{
             request.getRequestDispatcher("/WEB-INF/pages/welcome.jsp").forward(request, response);
         }
         
