@@ -16,10 +16,12 @@ and open the template in the editor.
 .social-media a{
     text-decoration: none;
     color: white;
+    margin: 5px;
+    transition: 0.3s;
 }
 
 .social-media a:hover{
-    font-size: 110%;
+    font-size: 250%;
     color: rgb(230,230,230);
 }
 

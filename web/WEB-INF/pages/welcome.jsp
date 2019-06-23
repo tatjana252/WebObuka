@@ -19,7 +19,7 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
     </head>
     <body>
-        <div class="container">
+        <div class="container-center">
             <header>
                 <%@include file="components/header.jsp" %>
             </header>

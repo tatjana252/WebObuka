@@ -17,7 +17,7 @@
     </head>
     <body>
         <div class="container">
-            <div class="login">
+            <div class="form">
                 <h1>Registracija</h1>
                 <form action="" method="post">
                     <div>
@@ -33,7 +33,7 @@
                         <input type="text" name="password" placeholder="Password" />
                     </div>
                     <div>
-                        <input type="text" name="email" placeholder="Email" />
+                        <input type="email" name="email" placeholder="Email" />
                     </div>
                     <div>
                         <input type="submit" value="Register" />

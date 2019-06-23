@@ -17,7 +17,7 @@
     </head>
     <body>
         <div class="container">
-            <div class="login">
+            <div class="form">
                 <h1>Sign in</h1>
                 <form action="action/login" method="post">
                     <div>

@@ -8,6 +8,8 @@ and open the template in the editor.
     Author     : hp
 */
 
+@import "all.css";
+
 *{
     font-family: 'Asap';
     font-weight: bold;
@@ -15,7 +17,7 @@ and open the template in the editor.
 
 table{
     border-spacing: 0;
-        width: 100%;
+    width: 100%;
     text-align: center;
     border-collapse: collapse;
     margin-bottom: 50px;
@@ -32,21 +34,35 @@ thead tr{
     border-bottom: 0;
     color: white;
 }
-tbody tr:nth-child(odd){
-    /*#d6d6d6*/
-    background-color: #D6FFCD;;
-}
-tbody tr:nth-child(odd):hover{
-    /*#d6d6d6*/
-    background-color: #BBDEB4;
-}
-
-
 tbody tr:nth-child(even){
     /*#d6d6d6*/
-    background-color: #EDDCFF;;
+    background-color: #e3f3ff;
 }
+
+
 tbody tr:nth-child(even):hover{
     /*#d6d6d6*/
-    background-color: #C6B6D6;;
+    background-color: #c1e4ff;
+}
+
+tbody tr:nth-child(odd):hover{
+    /*#d6d6d6*/
+    background-color: #e8e8e8;
+}
+
+tbody tr td a{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    padding: 20px 0;
+    width: 100%;
+}
+
+tbody tr td a:hover{
+    text-decoration: none;
+    background-color: #d9dbdd;
+}
+
+tbody tr td:nth-child(5){
+    padding: 0;
 }

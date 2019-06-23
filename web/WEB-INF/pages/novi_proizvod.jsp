@@ -10,11 +10,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
-        <link rel="stylesheet" type="text/css" href="/Proizvodi/css/header.css" />
-        <link rel="stylesheet" type="text/css" href="/Proizvodi/css/footer.css" />
-        <link rel="stylesheet" type="text/css" href="/Proizvodi/css/menu.css" />
-        <link rel="stylesheet" type="text/css" href="/Proizvodi/css/layout.css" />
-        <link rel="stylesheet" type="text/css" href="/Proizvodi/css/proizvodi.css" />
+        <link rel="stylesheet" type="text/css" href="/Proizvodi/css/novi_proizvod.css" />
         <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Open+Sans:800&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Asap&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
@@ -33,28 +29,33 @@
                         <%@include file="components/user.jsp" %>
                     </div>
                     <div class="content">
-                        <h2>Unesi proizvod </h2>
-                        <div class="login">
-                            <h1>Registracija</h1>
+
+                        <div class="form">
+                            <h2>Unesi proizvod </h2>
                             <form action="" method="post">
                                 <div>
-                                    <input type="text" name="ime" placeholder="Ime" />
+                                    <label for="naziv">Naziv</label>
+                                    <input type="text" name="naziv" />
                                 </div>
                                 <div>
-                                    <input type="text" name="prezime" placeholder="Prezime" />
+                                    <label for="cena">Cena</label>
+                                    <input type="number" step="0.01" name="cena" min="0" >
                                 </div>
                                 <div>
-                                    <input type="text" name="username" placeholder="Username" />
+                                    <label for="proizvodjac">Proizvodjac</label>
+                                    <select>
+                                        <option value="1">Proizvodjac 1</option>
+                                        <option value="2">Proizvodjac 2</option>
+                                        <option value="3">Proizvodjac 3</option>
+                                        <option value="4">Proizvodjac 4</option>
+                                    </select>
                                 </div>
                                 <div>
-                                    <input type="text" name="password" placeholder="Password" />
+                                    <label>Slika</label>
+                                    <input type="file" name="slika" accept="image/*">
                                 </div>
                                 <div>
-                                    <input type="text" name="email" placeholder="Email" />
-                                </div>
-                                <div>
-                                    <input type="submit" value="Register" />
-                                    <a href="login.jsp">Login</a>
+                                    <input type="submit" value="Sacuvaj" />
                                 </div>
                             </form>
                         </div>
